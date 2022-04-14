@@ -1,3 +1,13 @@
+<?php
+if (isset($_REQUEST["song1.php"])=== true){
+    echo "the button is clicked";
+}
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,15 +24,15 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
             <div class="container px-4">
-                <a class="navbar-brand" href="#page-top"> Add your brand name here </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand" href="#page-top"> iDyllic </a>
+                <button method="GET" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link text-light" href="#">Song 1</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">Song 2</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">Song 3</a></li>
-                         <li class="nav-item"><a class="nav-link text-light" href="#">Song 4</a></li>
-                          <li class="nav-item"><a class="nav-link text-light" href="#">Song 5</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="song1.php">Song 1</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="song2.php">Song 2</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="song3.php">Song 3</a></li>
+                         <li class="nav-item"><a class="nav-link text-light" href="song4.php">Song 4</a></li>
+                          <li class="nav-item"><a class="nav-link text-light" href="song5.php">Song 5</a></li>
                     </ul>
                 </div>
             </div>
