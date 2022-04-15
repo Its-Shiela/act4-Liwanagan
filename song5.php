@@ -100,6 +100,7 @@
    position: fixed;
    left: 0;
    bottom: 0;
+   height: 45px;
    width: 100%;
    background-color: silver;
    color: white;
@@ -108,11 +109,8 @@
 </style>
 
         <footer 
-            <div class = "footer"class="container px-4"><p>Copyright &copy; 2022. Shiela Mae Liwanagan</p></div>
-            <?php
-                echo ' <a href = "index.php">Main page</a> '
-                ?>
-        </footer>
+            <div class = "footer"class="container px-4"><?php echo ' <a href = "index.php">Main page</a> '?><p>Copyright &copy; 2022. Shiela Mae Liwanagan</p></div>
+            
         <!-- Bootstrap core JS-->
         <script src="js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

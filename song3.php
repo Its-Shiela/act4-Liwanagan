@@ -109,6 +109,7 @@
    left: 0;
    bottom: 0;
    width: 100%;
+   height: 45px;
    background-color: silver;
    color: white;
    text-align: center;
@@ -116,10 +117,8 @@
 </style>
 
         <footer 
-            <div class = "footer"class="container px-4"><p>Copyright &copy; 2022. Shiela Mae Liwanagan</p></div>
-            <?php
-                echo ' <a href = "index.php">Main page</a> '
-                ?>
+            <div class = "footer"class="container px-4"><?php echo ' <a href = "index.php">Main page</a> '?><p>Copyright &copy; 2022. Shiela Mae Liwanagan</p></div>
+            
         </footer>
         <!-- Bootstrap core JS-->
         <script src="js/bootstrap.bundle.min.js"></script>

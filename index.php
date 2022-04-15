@@ -65,7 +65,7 @@ if (isset($_REQUEST["song5.php"])=== true){
 
                 <style>
 .footer {
-   position: absolute;
+   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
