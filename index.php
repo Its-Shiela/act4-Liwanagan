@@ -1,5 +1,18 @@
 <?php
+session_start();
 if (isset($_REQUEST["song1.php"])=== true){
+
+}
+if (isset($_REQUEST["song2.php"])=== true){
+
+}
+if (isset($_REQUEST["song3.php"])=== true){
+
+}
+if (isset($_REQUEST["song4.php"])=== true){
+
+}
+if (isset($_REQUEST["song5.php"])=== true){
 
 }
 
@@ -45,18 +58,18 @@ if (isset($_REQUEST["song1.php"])=== true){
             <div class="container px-4 text-center">
                 <h1 class="fw-bolder">Welcome to Don Quixote</h1>
                 <p class="lead">Music diverge in genre, in tone or in language,</p>
-                <p class="lead">Yet all are euphonious, that let us express feelings we have.</p>
+                <p class="lead">Yet all are euphonious, that makes us dreamers.</p>
             </div>
         </header>
         
 
                 <style>
 .footer {
-   position: fixed;
+   position: absolute;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: coral;
+   background-color: silver;
    color: white;
    text-align: center;
 }

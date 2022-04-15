@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -102,6 +103,8 @@
                         <p>You're the one I want, one I want</p>
 
                     </div>
+
+                        
                 </div>
             </div>
         </section>
@@ -112,7 +115,7 @@
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: coral;
+   background-color: silver;
    color: white;
    text-align: center;
 }
@@ -120,11 +123,17 @@
 
         <footer 
             <div class = "footer"class="container px-4"><p>Copyright &copy; 2022. Shiela Mae Liwanagan</p></div>
+                <?php
+                echo ' <a href = "index.php">Main page</a> '
+                ?>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
+
+
     </body>
         
 </html>
