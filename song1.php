@@ -29,7 +29,7 @@
         </nav>
         
         <section class="bg-image"
-                 style = "background-image: url(images/photo_7.png);height: 1920vh width: 1080vw" id="songs">
+                 style = "background-image: url(images/photo_7.png);height: 100vh width: 100vw" id="songs">
             <div class="container px-4 ">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-12 text-center">
