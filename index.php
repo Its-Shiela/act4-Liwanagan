@@ -43,7 +43,7 @@ if (isset($_REQUEST["song1.php"])=== true){
         <header class="bg-image"
                 style = "background-image: url(images/photo_3.jpg);height: 100vh">
             <div class="container px-4 text-center">
-                <h1 class="fw-bolder">Welcome to Melomaniac</h1>
+                <h1 class="fw-bolder">Welcome to Don Quixote</h1>
                 <p class="lead">Music diverge in genre, in tone or in language,</p>
                 <p class="lead">Yet all are euphonious, that let us express feelings we have.</p>
             </div>
